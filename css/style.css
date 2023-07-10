@@ -4,6 +4,16 @@
   font-family: Lato;
 }
 
+/* Main */
+.featured_flower_container {
+  max-width: 1440px;
+  margin: auto;
+}
+.service_container {
+  max-width: 1440px;
+  margin: auto;
+}
+
 /* Header Design */
 
 header {
@@ -11,7 +21,7 @@ header {
   display: flex;
   justify-content: space-around;
   height: 850px;
-  padding-top: ;
+  margin-bottom: 100px;
 }
 
 .header_left {
@@ -43,3 +53,94 @@ header {
 .header_right {
   padding-top: 50px;
 }
+
+/* Featured Flower Section */
+
+.featured_flower_heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.featured_flower_heading h1 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.featured_flower_heading p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 24px;
+}
+
+.featured_flower_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.featured_flower_container a {
+  color: black;
+  text-align: center;
+  width: 400px;
+}
+
+.featured_flower_link {
+  justify-content: space-around;
+  margin-top: 32px;
+}
+
+.featured_flower1 {
+  width: 400px;
+  height: 500px;
+  background-size: 300px 400px;
+  border-radius: 300px 300px 0px 0px;
+  background-color: rgba(167, 33, 98, 0.15);
+  background-image: url("../images/pngwing\ 6.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  margin: 0 24px 0 0px;
+}
+.featured_flower2 {
+  width: 400px;
+  height: 500px;
+  background-size: 370px 370px;
+  border-radius: 300px 300px 0px 0px;
+  background-color: rgba(5, 151, 160, 0.15);
+  background-image: url("../images/pngwing\ 5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.featured_flower3 {
+  width: 400px;
+  height: 500px;
+  background-size: 370px 370px;
+  border-radius: 300px 300px 0px 0px;
+  background-color: rgba(71, 125, 17, 0.15);
+  background-image: url("../images/pngwing\ 7.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  margin: 0 0px 0 24px;
+}
+
+/* Service section design  */
+
+.service_container {
+  border-radius: 8px;
+  background-color: rgba(39, 39, 39, 0.05);
+  height: 320px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: 120px auto;
+}
+
+.service_container p {
+    color: rgba(39, 39, 39, 0.80);
+font-size: 24px;
+font-weight: 600;
+padding: 24px 0;
+}
+
