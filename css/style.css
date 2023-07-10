@@ -41,7 +41,7 @@ header {
   padding: 32px 0;
 }
 
-.header_left button {
+.btn_primary {
   border-radius: 8px;
   background-color: #e55473;
   padding: 20px 40px;
@@ -138,9 +138,41 @@ header {
 }
 
 .service_container p {
-    color: rgba(39, 39, 39, 0.80);
-font-size: 24px;
-font-weight: 600;
-padding: 24px 0;
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+  padding: 24px 0;
 }
 
+/* Offer section design */
+
+.offer_container {
+  border-radius: 8px;
+  background-color: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.offer_left h1 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.offer_left h1 span {
+  color: #e55473;
+}
+
+.offer_left p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 24px 0 32px 0;
+}
+
+.offer_right img {
+    padding: 100px 0;
+}
